@@ -1,0 +1,30 @@
+.header {
+    align-items: center;
+    background: var(--background-mobile-azul);
+    border-bottom: 1px solid var(--border-cabecera-mobile);
+    box-sizing: border-box;
+    color: var(--fuente-blanco);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    position: absolute;
+    width: 100%;
+}
+
+.header__logo{
+    margin-bottom: 1rem;
+}
+
+.header__nav {
+    text-align: center;
+}
+
+.header__link {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+}
+

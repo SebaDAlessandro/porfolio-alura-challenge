@@ -1,0 +1,67 @@
+.formacion {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background: var(--background-ceniza-claro);
+}
+
+.formacion__titulo {
+    align-items: center;
+    display: flex;
+    font-family: var(--Raleway);
+    font-size: 1.5rem;
+    font-weight: 700;
+    flex-direction: column;
+}
+
+.formacion__tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.formacion__tarjeta {
+    background: var(--background-mobile-azul);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 300px;
+    margin-bottom: 7px;
+    justify-content: center;
+    transition: 1s; 
+}
+
+.formacion__tarjeta:hover {
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.03);
+}
+
+.formacion__img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 0;
+}
+
+.formacion__imagen {
+    width: auto;
+    max-width: 100px;
+    height: 85px;
+}
+
+.formacion__detalles {
+    color: var(--fuente-blanco);
+    font-family: var(--Raleway);
+    line-height: normal;
+    margin: 3px;
+}
+
+.formacion__especializacion {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.formacion__centro {
+    font-size: 0.9rem;
+}

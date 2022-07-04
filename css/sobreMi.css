@@ -1,0 +1,20 @@
+.sobre_mi{
+    background: var(--background-ceniza-medio);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.sobre_mi__titulo {
+    font-family: var(--Raleway);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.sobre_mi__texto {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: normal;
+}
