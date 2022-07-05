@@ -1,16 +1,16 @@
 .skills {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
     background: var(--background-ceniza-claro);
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .skills__titulo {
     align-items: center;
     display: flex;
+    flex-direction: column;
     font-family: var(--Raleway);
     font-size: 1.5rem;
     font-weight: 700;
-    flex-direction: column;
 }
 
 .skills__lista-tarjetas {
@@ -44,12 +44,12 @@
 
 .skills__tarjeta p {
 	color: var(--fuente-ceniza-oscuro);
-	font-weight: bold;
     font-size: 13px;
+	font-weight: bold;
 	height: 100%;
 	left: 0;
-	top: 0;
     text-decoration: none;
+	top: 0;
 	width: 100%;
 }
 

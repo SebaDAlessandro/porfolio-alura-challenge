@@ -1,6 +1,6 @@
 .proyectos {
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .proyectos__titulo {
@@ -43,11 +43,23 @@
     font-family: var(--Raleway);
     font-size: 1rem;
     font-weight: 700;
+    transition: 1s;
+}
+
+.proyectos__proyecto-detahorcadoalle-btn:hover {
+    background: var(--background-mobile-azul);
+    color: var(--fuente-blanco);
 }
 
 .proyectos__proyecto-detahorcadoalle-btn:nth-last-child(1) {
     background: var(--background-mobile-azul);
     color: var(--fuente-blanco);
+    transition: 1s;
+}
+
+.proyectos__proyecto-detahorcadoalle-btn:nth-last-child(1):hover {
+    background: var(--fuente-blanco);
+    color: var(--background-mobile-azul);
 }
 
 .proyectos__proyecto-detalle-titulo {

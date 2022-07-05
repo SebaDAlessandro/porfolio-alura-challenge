@@ -1,10 +1,10 @@
 .sobre_mi{
+    align-items: center;
     background: var(--background-ceniza-medio);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .sobre_mi__titulo {
@@ -14,7 +14,7 @@
 }
 
 .sobre_mi__texto {
-    margin-top: 0.5rem;
     font-size: 1rem;
+    margin-top: 0.5rem;
     line-height: normal;
 }
