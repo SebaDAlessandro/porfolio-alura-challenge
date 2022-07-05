@@ -33,8 +33,13 @@
 }
 
 .formacion__tarjeta:hover {
-    filter: saturate(180%);
+/*     filter: saturate(180%);
     -webkit-transform:scale(1.3);transform:scale(1.03);
+ */
+
+ filter: opacity(.5);
+
+
 }
 
 .formacion__img-container {
