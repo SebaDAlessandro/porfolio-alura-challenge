@@ -11,16 +11,17 @@
 .presentacion__inicial{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.presentacion__imagen{
+.presentacion__imagen {
     border-radius: 5%;
     margin-bottom: 0.7rem;
     width: 10rem;
 
 }
 
-.presentacion__titulo {
+.presentacion__nombre {
     color: var(--fuente-blanco);
     font-family: var(--Raleway);
     font-size: 1.4rem;
@@ -33,7 +34,7 @@
     font-family: var(--Raleway);
     font-size: 1rem;
     line-height: normal;
-    margin: 0 0 2.5rem 5%;
+    margin: 1.5rem 0 1.5rem 5%;
 }
 
 .presentacion__links {
@@ -43,37 +44,73 @@
     margin-bottom: 0.1rem;
 }
 
+.presentacion__links-detalle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .presentacion__link {
     color: var(--fuente-blanco);
     align-items: center;
     display: flex;
     flex-direction:row;
     font-size: 0.9rem;
+    padding: 5px;
 }
 
-/* .presentacion__escribiendo {
-    display: inline-block;
+
+@media screen and (min-width: 1024px) {
+
+    .presentacion{
+        background: var(--background-gradient-azul);
+        height: 100%;
+    }
+
+    .presentacion__imagen {
+        width: 15rem;
+    }
+
+    .presentacion__inicial{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .presentacion__links {
+        flex-direction: column;
+    }
+
+    .presentacion__links-detalle {
+        display: flex;
+        justify-content: center
+    }
+
+    .presentacion__escribiendo {
+        display: inline-block;
+    }
+
+    .presentacion__nombre {
+        animation: cursor 0.5s infinite, presentacion__escribiendo 3.5s steps(42, end);
+        white-space: nowrap;
+        overflow: hidden;
+        color: var(--fuente-blanco);
+        border-right: 2.5px solid var(--fuente-blanco);
+        font-family: var(--Raleway);
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin: 0 0 1.5rem 0;
+    }
+
+    @keyframes cursor {
+        0%{border-color: transparent}
+        50%{border-color: var(--border-card)}
+    }
+
+    @keyframes presentacion__escribiendo {
+        from{width: 0;}
+        to{width: 100%;}
+    }
+
 }
-
-.presentacion__nombre {
-    animation: cursor 0.5s infinite, presentacion__escribiendo 3.5s steps(42, end);
-    white-space: nowrap;
-    overflow: hidden;
-    color: var(--fuente-blanco);
-    border-right: 2.5px solid var(--fuente-blanco);
-    font-family: var(--Raleway);
-    font-size: 1.4rem;
-    font-weight: 700;
-    margin: 0 0 1.5rem 5%;
-}
-
-@keyframes cursor {
-    0%{border-color: transparent}
-    50%{border-color: var(--border-card)}
-}
-
-@keyframes presentacion__escribiendo {
-    from{width: 0;}
-    to{width: 100%;}
-} */
-

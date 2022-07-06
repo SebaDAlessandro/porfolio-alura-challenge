@@ -65,3 +65,17 @@
 .formacion__centro {
     font-size: 0.9rem;
 }
+
+@media screen and (min-width: 768px) {
+    .formacion__tarjetas {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formacion__tarjetas {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

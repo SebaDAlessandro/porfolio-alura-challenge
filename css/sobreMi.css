@@ -18,3 +18,9 @@
     margin-top: 0.5rem;
     line-height: normal;
 }
+
+@media screen and (min-width: 1024px) {
+    .sobre_mi__texto{
+        line-height: 2rem;
+    }
+}
