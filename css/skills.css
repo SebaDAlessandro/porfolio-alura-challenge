@@ -28,12 +28,13 @@
     flex-direction:column;
     height: 120px;
 	margin: 3%;
-    transition: 0.3s;
+    transition: 0.5s;
     width: 110px;
 }
 
 .skills__tarjeta:hover {
     box-shadow: 4px 4px 4px #CCC;
+    transform: scale(1.1);
 }
 
 .skills__tarjeta img {
