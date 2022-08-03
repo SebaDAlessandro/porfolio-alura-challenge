@@ -13,14 +13,43 @@
     font-weight: 700;
 }
 
+.sobre_mi_contexto {
+    display: flex;
+    align-items: center;
+}
+
+.sobre_mi__imagen{
+    display: none;
+}
+
 .sobre_mi__texto {
     font-size: 1rem;
     margin-top: 0.5rem;
     line-height: normal;
 }
 
+
 @media screen and (min-width: 1024px) {
+    
+    .sobre_mi {
+        padding: 1.5rem 15px 1.5rem 15px;
+    }
+
     .sobre_mi__texto{
-        line-height: 2rem;
+        line-height: 1.8rem;
+        padding-right: 30px;
+    }
+
+    .sobre_mi__imagen {
+        display: flex;
+        height: 60vh;
+        padding: 0 15px 0 30px;
+        width: 40vw;
+        border-radius: 80px;
+        transition: 1s;
+    }
+    
+    .sobre_mi__imagen:hover {
+        filter: saturate(180%);
     }
 }
